@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' />
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" /> -->
+    <title>Mistyclouds Sword Store</title>
+</head>
+
+<body>
+    <section id="header">
+        <div id="logo"><a href="index.html"><img src="./images/home_logo.png" alt="" height="90px" width="90px"></a>
+        </div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class="bx bx-menu"></i>
+        </div>
+    </section>
+
+    <section id="page-header-cart">
+
+        <h2>#checkout</h2>
+        <p>Save more with coupons & up to 70% off!!</p>
+
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Preview</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class='bx bx-x-circle'></i></a></td>
+                    <td><img src="./images/pro1_pic.jpg" alt=""></td>
+                    <td>Tanjirou's katana</td>
+                    <td>₹6649</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹6649</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class='bx bx-x-circle'></i></a></td>
+                    <td><img src="./images/new1_pic.jpg" alt=""></td>
+                    <td>Thousand Demon Daggers</td>
+                    <td>₹16624</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹16624</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class='bx bx-x-circle'></i></a></td>
+                    <td><img src="./images/pro6_pic.jpg" alt=""></td>
+                    <td>The Elucidator</td>
+                    <td>₹10805</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹10805</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div id="coupon">
+                <input type="text" placeholder="enter coupon code">
+                <button class="btn">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹34078</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>₹34078</strong></td>
+                </tr>
+            </table>
+            <button class="btn">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h2 class="name">Mistyclouds Sword Store</h2>
+            <img class="logo" src="./images/home_logo.png" alt="home_logo">
+            <h4>Contact</h4>
+            <p><strong>Address</strong> : Hosur Rd, Chikku Lakshmaiah Layout, Koramangala, Bengaluru, Karnataka
+                560095</p>
+            <p><strong>Phone</strong> : +91 7619546210</p>
+            <p><strong>Work Hours</strong> : 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-pinterest'></i>
+                    <i class='bx bxl-youtube'></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Google Play Store or App Store </p>
+            <div class="row">
+                <img src="./images/play_pic.jpg" alt="">
+                <img src="./images/app_pic.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="./images/pay_pic.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2023, Dinakar - HTML CSS JS E-commerce Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
